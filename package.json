@@ -1,6 +1,7 @@
 {
   "name": "inmersoft-referencies",
-  "version": "0.1.7",
+  "homepage": "https://inmersoft-dev.github.io/inmersoft-referencies/",
+  "version": "0.2.1",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
