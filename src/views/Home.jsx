@@ -12,7 +12,7 @@ const Home = () => (
       <img src={logo} className="App-logo" alt="logo" />
       <h1>Inmersoft Referencies</h1>
       <Link className="App-link" to="/images">
-        Go to /#/images
+        Go to /images
       </Link>
     </header>
   </div>
