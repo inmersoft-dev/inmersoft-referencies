@@ -6,7 +6,7 @@ const NotFound = () => (
     flexDirection="column"
     justifyContent="center"
     alignItems="center"
-    sx={{ width: "100vw", height: "100vh" }}
+    sx={{ width: "100%", height: "100vh" }}
   >
     <SitoContainer>Page not found</SitoContainer>
     <h1>404</h1>

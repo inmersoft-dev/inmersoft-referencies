@@ -1,6 +1,3 @@
-import { useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
-
 // sito components
 import SitoImage from "sito-image";
 import SitoContainer from "sito-container";
@@ -111,38 +108,34 @@ const images = [
 ];
 
 const Gallery = () => {
-  const location = useLocation();
-
-  const [imageToSee, setImageToSee] = useState("");
-
-  useEffect(() => {
-    const { search } = location;
-    console.log(search, location);
-  }, [location]);
-
   return (
     <SitoContainer
+      flexDirection="column"
       sx={{
-        width: "100%",
         height: "100vh",
-        flexWrap: "wrap",
         padding: "20px",
       }}
     >
-      {images.map((item, i) => (
-        <SitoImage
-          sx={{
-            width: "200px",
-            height: "200px",
-            margin: "20px",
-            objectFit: "cover",
-            borderRadius: "1rem",
-          }}
-          key={i}
-          src={item}
-          alt={item}
-        />
-      ))}
+      <h1>Gallery</h1>
+      <SitoContainer sx={{ flexWrap: "wrap" }}>
+        {images.map((item, i) => (
+          <a href={item} target="_blank" rel="noreferrer">
+            <SitoImage
+              sx={{
+                width: "200px",
+                height: "200px",
+                margin: "20px",
+                objectFit: "cover",
+                borderRadius: "1rem",
+                cursor: "pointer",
+              }}
+              key={i}
+              src={item}
+              alt={item}
+            />
+          </a>
+        ))}
+      </SitoContainer>
     </SitoContainer>
   );
 };

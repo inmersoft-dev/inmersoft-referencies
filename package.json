@@ -1,6 +1,6 @@
 {
   "name": "inmersoft-referencies",
-  "version": "0.1.2",
+  "version": "0.1.7",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
@@ -8,7 +8,7 @@
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "sito-container": "^0.4.1",
-    "sito-image": "^0.11.5"
+    "sito-image": "^0.12.1"
   },
   "scripts": {
     "start": "react-scripts start",
