@@ -7793,10 +7793,10 @@ sito-container@^0.4.1:
     react-dom "^18.2.0"
     react-scripts "5.0.1"
 
-sito-image@^0.12.1:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/sito-image/-/sito-image-0.12.1.tgz#d6448f1d49b45ba62e0c237c11ef037c313a6cba"
-  integrity sha512-mG3aEgnFlMNP3Or6ZJBGloPWcNRPfWvoOHIhXhbLJ7CkrCqG3o1zOD77g1vkdgZLPHdAIHjoaFs453d2HLNusg==
+sito-image@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/sito-image/-/sito-image-0.12.2.tgz#3a4c6306e245960055324cf33540dcffeb529e79"
+  integrity sha512-sSLS4t7UfNxiNuWCeNK0WqIKWkmH4aEjMJ4styvi5ZmM5Uqk4gY2VdhMg8H+uLgj4yixPrBpjDCMhwjZ8eJB3A==
   dependencies:
     "@emotion/css" "^11.9.0"
     react "^18.2.0"
